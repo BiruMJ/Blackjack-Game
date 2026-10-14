@@ -27,3 +27,15 @@ button {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+footer {
+    background-color: #f8fafc;
+    padding: 0.5em;
+}
+#social-link {
+    color: #0f172a;
+    text-align: center;
+}
+#social-link p:hover {
+    color: #475569;
+}
+
