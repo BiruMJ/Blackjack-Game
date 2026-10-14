@@ -5,7 +5,11 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    min-height: 100mvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -30,13 +34,17 @@ button {
 }
 footer {
     background-color: #f8fafc;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
-#social-link {
+#social-links h2, a {
     color: #0f172a;
     text-align: center;
 }
-#social-link p:hover {
+#social-links a {
+    text-decoration: none;
+}
+
+#social-links a:hover {
     color: #475569;
 }
 
