@@ -5,6 +5,7 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
+    min-height: 100mvh;
 }
 
 h1 {
